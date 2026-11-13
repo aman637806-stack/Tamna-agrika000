@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALAL WORK With ZORO TRADER</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .logo-container {
+            width: 140px;
+            height: 140px;
+            border-radius: 28px;
+            background: linear-gradient(145deg, #1f1f1f, #0d0d0d);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 140, 0, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+            border: 2px solid #ff7b00;
+            overflow: hidden;
+        }
+
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .channel-type {
+            font-size: 13px;
+            letter-spacing: 2px;
+            color: #ff8c00;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .channel-name {
+            font-size: 24px;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #b3b3b3;
+            line-height: 1.5;
+            margin-bottom: 30px;
+            padding: 0 10px;
+        }
+
+        .join-btn {
+            width: 100%;
+            background: linear-gradient(180deg, #ff9e2c, #e06d00);
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 16px 20px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 6px 20px rgba(255, 123, 0, 0.4);
+            transition: transform 0.2s ease, opacity 0.2s ease;
+            margin-bottom: 30px;
+        }
+
+        .join-btn:active {
+            transform: scale(0.98);
+        }
+
+        .timer-box {
+            width: 100%;
+            background: #161616;
+            border: 1px solid #2a2a2a;
+            border-radius: 12px;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .time-block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .time-digit {
+            font-size: 28px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .time-label {
+            font-size: 10px;
+            color: #ff8c00;
+            letter-spacing: 1px;
+            margin-top: 2px;
+        }
+
+        .time-colon {
+            font-size: 28px;
+            font-weight: 700;
+            color: #ff8c00;
+            margin-top: -10px;
+        }
+
+        footer {
+            width: 100%;
+            max-width: 400px;
+            font-size: 11px;
+            color: #777777;
+            padding-bottom: 20px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: #999999;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            color: #ffffff;
+        }
+
+        .copyright {
+            margin-bottom: 8px;
+        }
+
+        .agency {
+            color: #ff8c00;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo / Image -->
+        <div class="logo-container">
+            <img src="https://i.ibb.co/q3LnBR3V/IMG-20261111-111502-977.jpg" alt="ZORO TRADER Logo">
+        </div>
+
+        <!-- Header Info -->
+        <div class="channel-type">TELEGRAM CHANNEL</div>
+        <h1 class="channel-name">HALAL WORK With ZORO TRADER 📊</h1>
+        <p class="description">Trusted market insights, disciplined research and honest updates — straight from the desk to your phone.</p>
+
+        <!-- Join Button with Telegram Link -->
+        <a href="https://t.me/+xOXxoOZ0h04yYzVl" class="join-btn" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.03-1.99 1.27-5.62 3.72-.53.36-1.01.54-1.44.53-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.2
